@@ -1,6 +1,7 @@
 {
   "name": "NoteApp",
   "version": "0.1.0",
+  "homepage": "https://utzmankazeem.github.io/notekeep",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.13.3",
@@ -22,7 +23,9 @@
     "start": "react-scripts start",
     "dev": "nodemon app",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

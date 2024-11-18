@@ -62,6 +62,8 @@ main {
 
 .note p{
   margin-top: 20px 0;
+  word-wrap:break-word;
+  text-wrap: wrap;
 }
 
 input{
