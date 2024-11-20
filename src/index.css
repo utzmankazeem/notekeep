@@ -35,59 +35,60 @@ header h1 {
   font-weight: 200;
 }
 main {
-  width: 240px;
-  height: auto;
-  padding: 10px;
+  font-size: 16px;
+  width: 150px;
+  height: 100px;
+  padding: auto;
   margin: auto;
   border-radius: 10px;
   background-color: cornsilk;
   box-shadow: 0 2px 5px #ccc;
+
+  & input{
+    border: none;
+    background-color: inherit;
+    width:140px;
+  }
+  textarea{
+    border: none;
+    background-color: inherit;
+    width: 140px;
+    scroll-behavior: none;
+  }
+  input,textarea:focus {
+    border: none;
+  }
+  button {
+    position: relative;
+    left: 130px;
+    cursor: pointer;
+  }
 }
 .note {
-  width: 240px;
-  padding: 10px;
-  margin: 16px;
+  width: 200px;
+  padding: 5px;
+  margin: 10px;
   border-radius: 10px;
   background-color: cornsilk;
   box-shadow: 0 2px 5px #fa9393;
   float: left;
-}
-.note img{
-  border-radius: 50%;
-  border: 5px solid #fff;
-  width: 50px;
-  height: 50px;
-  float: right;
-}
-
-.note p{
-  margin-top: 20px 0;
-  word-wrap:break-word;
-  text-wrap: wrap;
+    & p{
+      margin-top: 20px 0;
+      word-wrap:break-word;
+      text-wrap: wrap;
+      font-size: 10px;
+    }
+    & p.title {
+      font-weight: bold;
+      text-transform: uppercase;
+    }
 }
 
-input{
-  font-size: 20px;
-  border: none;
-  background-color: inherit;
-  width: 100px;
-}
-textarea{
-  font-size: 20px;
-  border: none;
-  background-color: inherit;
-}
-input,textarea:focus {
-  border: none;
-}
-button {
-  position: relative;
-  left: 200px;
-  cursor: pointer;
-}
+
+
 span {
   position: relative;
-  left: 200px;
+  left: 180px;
   cursor: pointer;
 }
 footer {

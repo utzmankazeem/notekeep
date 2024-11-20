@@ -6,7 +6,7 @@ const Note = ({title, content, onDelete, id}) => {
   }
   return (
     <div className='note'>
-        <h3>{title}</h3>
+        <p className='title'>{title}</p>
         <p>{content}</p>
 {/* handlclick func triggers the onDelete prop inside the deleteNote funck in app */}
         <span onClick={handleClick}><DeleteIcon /></span>
