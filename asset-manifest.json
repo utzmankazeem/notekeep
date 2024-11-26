@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/notekeep/static/css/main.bc0713f4.css",
+    "main.js": "/notekeep/static/js/main.1196335e.js",
+    "index.html": "/notekeep/index.html",
+    "main.bc0713f4.css.map": "/notekeep/static/css/main.bc0713f4.css.map",
+    "main.1196335e.js.map": "/notekeep/static/js/main.1196335e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc0713f4.css",
+    "static/js/main.1196335e.js"
+  ]
+}
