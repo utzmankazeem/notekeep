@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 this is a react nottebook platform, created with use in mind, for safe quick note keeping.
 
-To learn see usage, check out the [React documentation] (https://utzmankazeem.github.io/noteapp).
+To learn see usage, check out the [React documentation] (https://utzmankazeem.github.io/notekeep).
 
 ### Code Splitting
 
