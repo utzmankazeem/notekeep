@@ -37,23 +37,18 @@ header h1 {
 main {
   font-size: 16px;
   width: 150px;
-  height: 100px;
-  padding: auto;
+  height: 80px;
+  padding-top: 5px;
   margin: auto;
   border-radius: 10px;
   background-color: cornsilk;
-  box-shadow: 0 2px 5px #ccc;
+  box-shadow: 0 2px 5px #f193fa;
 
-  & input{
-    border: none;
+ textarea, input{
+    width:inherit;
     background-color: inherit;
-    width:140px;
-  }
-  textarea{
+    width: 150px;
     border: none;
-    background-color: inherit;
-    width: 140px;
-    scroll-behavior: none;
   }
   input,textarea:focus {
     border: none;
@@ -63,11 +58,19 @@ main {
     left: 130px;
     cursor: pointer;
   }
+  .btn {
+    background-color: gold;
+    color: white;
+
+      &:hover {
+        color: gold;
+      }
+  }
 }
 .note {
-  width: 200px;
+  width: 180px;
   padding: 5px;
-  margin: 10px;
+  margin: 15px;
   border-radius: 10px;
   background-color: cornsilk;
   box-shadow: 0 2px 5px #fa9393;
@@ -84,12 +87,11 @@ main {
     }
 }
 
-
-
 span {
   position: relative;
-  left: 180px;
+  left: 160px;
   cursor: pointer;
+  color: gold;
 }
 footer {
   position: fixed;

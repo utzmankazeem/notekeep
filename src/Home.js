@@ -57,8 +57,8 @@ const Home = ({onAdd}) => {
         {/* <button onClick={submitNote}>+</button> */}
         <Zoom  in={isExpanded}>
         {/* Fab is for transition */}
-        <Fab onClick={submitNote}> 
-          <AddIcon /> 
+        <Fab className='btn' onClick={submitNote}> 
+          <AddIcon  /> 
         </Fab>
         </Zoom>
     </form>
