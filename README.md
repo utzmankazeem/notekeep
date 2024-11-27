@@ -4,15 +4,19 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Features
 
-this is a react nottebook platform, created with use in mind, for safe quick note keeping.
+this is a react notebook platform...
+created with user in mind, for safe quick note keeping.
 
-To learn see usage, check out the [React documentation] (https://utzmankazeem.github.io/notekeep).
+To learn see usage, check out the [the document] (https://utzmankazeem.github.io/notekeep).
 
 ### Code Splitting
 
+Slik design and display
+awesome buttons and hidden areas
 the application allows users to create and store note
-there are no wuick guides, as the app is strsigh up usage similar to a notepad.
-as users punches the input button, a title bar display creating a note and its title section
+there are no quick guides, the app is straight up usage similar to a notepad.
+as users punches the input button, a title bar comes up slikly
+The display create a note and its title section
 simple and easy usage
 
 ### npm install
